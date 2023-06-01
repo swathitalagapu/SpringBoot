@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 public class Student {
     @Id
     @GeneratedValue
-    private long rollno;
+    private int rollno;
 
     @Column
     private String stuname;
